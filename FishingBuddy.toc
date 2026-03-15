@@ -22,6 +22,7 @@ FishingOptionsFrame.lua
 FishingScrollMenu.xml
 FishingLocationsFrame.xml
 FishingSessionFrame.lua
+FishingChecklist.lua
 FishingOutfitManager.lua
 FishingOutfitter.xml
 FishingBuddyMinimap.lua

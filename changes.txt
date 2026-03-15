@@ -2,6 +2,9 @@ Version 1.26.5
 - Fix easy cast with Reusable Oversized Bobber by using the correct toy item ID (GitHub issue #2)
 - Fix remaining toy item ID handling for Trawler Totem, raft toys, and generic toy-based fishing item use.
 - Make the Fish Watcher behave as a movable standalone window with a visible header and side-position default.
+- Add per-hour session metrics for total, counted, and other catches in the Session panel.
+- Add a movable Fishing Checklist window with starter tracking for fishing quests, Midnight treasure progress, and fishing utility toys.
+- Expand the Fishing Checklist with event tracking, achievement goals, skill milestones, and more fishing utility items.
 - Fix calendar taint error in FishingExtravaganza.lua by avoiding restricted `sequenceType` comparisons.
 - Improve calendar event parsing resilience when title/type/texture fields are missing.
 - Fix `ADDON_ACTION_BLOCKED` from `RegisterForClicks` by deferring mouse click registration updates until out of combat.
